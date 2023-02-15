@@ -55,3 +55,34 @@ main > #nav {
   align-items: center;
   justify-content: center;
 }
+
+#overview {
+  display: grid;
+  grid-template:
+    "a b c d"
+    "e f g h"
+    "i j k l"
+    "m n o p"
+    "q r s t";
+  justify-content: center;
+}
+
+#bisasam {
+  height: 10rem;
+  width: 7.5rem;
+  background-image: url("https://www.azutura.com/media/catalog/product/cache/48/image/650x/040ec09b1e35df139433887a97daa66f/W/S/WS-45840_WP.jpg");
+  border: 0.5rem solid black;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+}
+
+#bisasam > h2 {
+  color: orangered;
+  background-color: rgba(0, 0, 0, 0.65);
+  display: flex;
+  justify-content: center;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
